@@ -11,7 +11,13 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        'custom-bg': '#EBFEFF', 
+        'customTeal': '#00B6D7',
       },
+      
+      fontFamily: {
+        sans: ['Open Sans', 'sans-serif'],
+      }
     },
   },
   plugins: [],
